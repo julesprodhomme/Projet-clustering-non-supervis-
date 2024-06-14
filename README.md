@@ -38,5 +38,7 @@ Ce projet utilise des techniques de clustering non supervisé pour segmenter les
 
 - **Maintenance de la Segmentation** :
   - Stratégie de mise à jour régulière
+  - Etude de la stabilité des clusters dans le temps
+    
 
 
