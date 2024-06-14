@@ -1,34 +1,39 @@
-Segmentation Clients - Clustering RFM
-Description
+# Segmentation Clients Olist
 
-Ce projet utilise des techniques de clustering non supervisé pour segmenter les clients de la plateforme e-commerce Olist en appliquant la méthode RFM (Récence, Fréquence, Montant).
-Techniques Utilisées
+## Description
 
-  Transformation des Variables Catégorielles :
-        OneHotEncoder
-        TargetEncoder
+Ce projet utilise des techniques de clustering non supervisé pour segmenter les clients d'une plateforme e-commerce en appliquant la méthode RFM (Récence, Fréquence, Montant).
 
-  Création de Nouvelles Variables :
-        Feature engineering à partir de données existantes
+## Techniques Utilisées
 
-  Transformations Mathématiques :
-        Ajustement des distributions des variables
+- **Transformation des Variables Catégorielles** :
+  - OneHotEncoder
+  - TargetEncoder
 
-  Normalisation des Variables :
-        StandardScaler
-        MinMaxScaler
+- **Création de Nouvelles Variables** :
+  - Feature engineering à partir de données existantes
+  - Intégration de nouvelles variables
 
-  Clustering Non Supervisé :
-        K-Means
-        DBSCAN
+- **Transformations Mathématiques** :
+  - Ajustement des distributions des variables
 
-  Évaluation des Modèles :
-        Coefficient de silhouette
-        Méthode du coude (Elbow Method)
-        Analyse de la forme et stabilité des clusters
+- **Normalisation des Variables** :
+  - StandardScaler
+  - MinMaxScaler
 
-  Optimisation des Hyperparamètres :
-        GridSearchCV
+- **Clustering Non Supervisé** :
+  - K-Means
+  - DBSCAN
 
-  Maintenance de la Segmentation :
-        Stratégie de mise à jour régulière
+- **Évaluation des Modèles** :
+  - Coefficient de silhouette
+  - Méthode du coude (Elbow Method)
+  - Analyse de la forme et stabilité des clusters
+
+- **Optimisation des Hyperparamètres** :
+  - GridSearchCV
+
+- **Maintenance de la Segmentation** :
+  - Stratégie de mise à jour régulière
+
+
