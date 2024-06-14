@@ -28,7 +28,10 @@ Ce projet utilise des techniques de clustering non supervisé pour segmenter les
 - **Évaluation des Modèles** :
   - Coefficient de silhouette
   - Méthode du coude (Elbow Method)
+  - Analyses statistiques des valeurs des features par clusters
   - Analyse de la forme et stabilité des clusters
+  - Visualisations 3D des clusters avec réduction de dimensionalité
+  
 
 - **Optimisation des Hyperparamètres** :
   - GridSearchCV
